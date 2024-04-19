@@ -11,6 +11,11 @@
   <ItemGroup>
     <None Remove="Images\2.png" />
     <None Remove="Images\240_F_144083574_5Pg3nUOhex3LyXFvhGLZVba4yohLMXOI.jpg" />
+    <None Remove="Images\3_dot.png" />
+    <None Remove="Images\clip.png" />
+    <None Remove="Images\download.png" />
+    <None Remove="Images\emoji_icon.png" />
+    <None Remove="Images\magnifying-glass-icon-isolated-on-white-background-search-illustration-vector.jpg" />
     <None Remove="Images\office-push-pin_73169.png" />
     <None Remove="Images\three_10094376.png" />
   </ItemGroup>
@@ -20,6 +25,21 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\240_F_144083574_5Pg3nUOhex3LyXFvhGLZVba4yohLMXOI.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\3_dot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\clip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\download.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\emoji_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\magnifying-glass-icon-isolated-on-white-background-search-illustration-vector.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\office-push-pin_73169.png">
