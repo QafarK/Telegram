@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\2.png" />
+    <None Remove="Images\240_F_144083574_5Pg3nUOhex3LyXFvhGLZVba4yohLMXOI.jpg" />
+    <None Remove="Images\office-push-pin_73169.png" />
+    <None Remove="Images\three_10094376.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\240_F_144083574_5Pg3nUOhex3LyXFvhGLZVba4yohLMXOI.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\office-push-pin_73169.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\three_10094376.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
